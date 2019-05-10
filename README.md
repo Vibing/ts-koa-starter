@@ -1,12 +1,12 @@
 本人平常喜欢用`nodejs`瞎 JB 写写东西，但是每次都要创建项目、安装依赖等等前戏工作，这让我很烦。于是乎写了个空的起手式，这样以后写东西直接 clone 下来就行了。
 
+我觉得跟我一样的人应该很多，所以也把这个小东西分享给大家。
+
 # ts-koa-starter
 
 这是一个`koa+typescript`的起手式(简单的空环境)，默认使用`koa2`、`typescript`、`typeorm`。
 
 如果你不想要`typeorm`，请点击[这里](https://github.com/Vibing/ts-koa-starter/tree/br-ts-koa)
-
-我觉得跟我一样的人应该很多，所以也把这个小东西分享给大家。
 
 ## 项目依赖
 
