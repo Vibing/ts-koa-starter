@@ -4,7 +4,7 @@
 
 # ts-koa-starter
 
-这是一个`koa+typescript`的起手式(简单的空环境)，默认使用`koa2`、`typescript`、`typeorm`。
+这是一个`koa+typescript`的起手式(简单的空环境)，使用`koa2`、`typescript`
 
 如果你不想要`typeorm`，请点击[这里](https://github.com/Vibing/ts-koa-starter/tree/br-ts-koa)
 
@@ -20,13 +20,11 @@
 .
 ├── src
 │   ├── controller      //controller层
-│   ├── entity          //entity实例
 │   ├── service         //service层
 │   ├── routes.ts       //路由
 │   └── index.ts        //项目入口index.js
 ├── ecosystem.config.js //pm2配置
 ├── nodemon.json        //nodemon配置
-├── ormconfig.js        //typeorm连接数据库配置
 ├── package.json
 └── tsconfig.json
 ```
