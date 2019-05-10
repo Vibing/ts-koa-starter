@@ -1,0 +1,35 @@
+{
+  "name": "ts-koa-starter",
+  "version": "1.0.0",
+  "description": "一个简单的koa+typescript+typeorm的起手式",
+  "tags": [
+    "orm",
+    "typescript",
+    "typeorm",
+    "koa"
+  ],
+  "scripts": {
+    "start": "NODE_ENV=dev nodemon",
+    "build": "rm -rf dist && tsc",
+    "pro": "node_modules/.bin/pm2 start --env=production",
+    "stop": "node_modules/.bin/pm2 stop all"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1",
+    "typeorm": "^0.2.17"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-router": "^7.0.40",
+    "@types/node": "^12.0.0",
+    "nodemon": "^1.19.0",
+    "pm2": "^3.5.0",
+    "ts-node": "^8.1.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.4.5"
+  }
+}
