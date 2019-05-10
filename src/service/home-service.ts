@@ -8,8 +8,9 @@ export default class HomeService {
     const newCategory = categoryRepository.create({
       name: 'Jack'
     });
+
     await categoryRepository.save(newCategory);
 
-    return 'hello';
+    return 'hello world';
   }
 }
