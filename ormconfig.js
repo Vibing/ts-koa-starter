@@ -2,11 +2,11 @@ const env = process.env.NODE_ENV;
 
 module.exports = {
   type: 'mysql',
-  host: '47.110.130.242',
+  host: '127.0.0.1',
   port: 3306,
-  username: 'vcontroller',
-  password: 'te85jRPErW6JiNke',
-  database: 'vcontroller',
+  username: 'test',
+  password: 'test',
+  database: 'test',
   synchronize: true,
   logging: false,
   entities: [`${env == 'dev' ? 'src' : 'dist'}/entity/*{.ts,.js}`]
