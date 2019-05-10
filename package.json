@@ -9,7 +9,7 @@
     "koa"
   ],
   "scripts": {
-    "start": "NODE_ENV=dev nodemon",
+    "start": "nodemon",
     "build": "rm -rf dist && tsc",
     "pro": "node_modules/.bin/pm2 start --env=production",
     "stop": "node_modules/.bin/pm2 stop all"
@@ -17,9 +17,7 @@
   "dependencies": {
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0",
-    "mysql": "^2.17.1",
-    "typeorm": "^0.2.17"
+    "koa-router": "^7.4.0"
   },
   "devDependencies": {
     "@types/koa": "^2.0.48",
