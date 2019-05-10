@@ -6,7 +6,7 @@ export default class HomeService {
   static async hello(context?: Context) {
     const categoryRepository = getManager().getRepository(Category);
     const newCategory = categoryRepository.create({
-      name: '陈龙'
+      name: 'Jack'
     });
     await categoryRepository.save(newCategory);
 
