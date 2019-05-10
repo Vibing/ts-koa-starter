@@ -1,8 +1,6 @@
 const { name } = require('./package.json');
 const path = require('path');
 
-console.log(name);
-
 module.exports = {
   apps: [
     {
