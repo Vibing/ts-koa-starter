@@ -5,14 +5,14 @@
   "tags": [
     "orm",
     "typescript",
-    "typeorm",
     "koa"
   ],
   "scripts": {
     "start": "nodemon",
     "build": "rm -rf dist && tsc",
-    "pro": "node_modules/.bin/pm2 start --env=production",
-    "stop": "node_modules/.bin/pm2 stop all"
+    "pro": "npx pm2 start ecosystem.config.js --env production",
+    "restart": "pm2 restart ecosystem.config.js --env production",
+    "stop": "npx pm2 stop ecosystem.config.js"
   },
   "dependencies": {
     "koa": "^2.7.0",

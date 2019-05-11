@@ -30,6 +30,7 @@ ps:`typeorm`是一个非常好的数据库 ORM，如果你没玩过，请务必�
 - git clone https://github.com/Vibing/ts-koa-starter.git
 - yarn 或者 npm i
 - yarn start 或 npm start
+- 在浏览器中开打`localhost:3000`
 
 ### 打包
 
@@ -37,7 +38,7 @@ ps:`typeorm`是一个非常好的数据库 ORM，如果你没玩过，请务必�
 
 ### 生产环境启动
 
-- 生产环境使用 pm2 启动 可以达到负载均衡 执行：yarn pro 或 npm run pro
+- 生产环境使用 pm2 启动 可以达到负载均衡 执行：yarn pro 或 npm run pro （生产环境端口默认：8080）
 
 ## 友情链接
 
