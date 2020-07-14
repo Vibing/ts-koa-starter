@@ -1,7 +1,11 @@
 import HomeService from '../service/home-service';
 
-export default class HomeController {
-  static async hello(ctx) {
-    ctx.body = await HomeService.hello();
+class HomeController {
+  _service:HomeService = new HomeService()
+
+  hello =  async(ctx) => {
+    ctx.body = await this._service.hello();
   }
 }
+
+export default new HomeController()
